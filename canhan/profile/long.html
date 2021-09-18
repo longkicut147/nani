@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <link rel="stylesheet" href="long.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <button  onclick="hamDropdown()"  class="nut_dropdown">Dropdown</button>
+        <div class="noidung_dropdown">
+            <div class="noidung-tren">
+                <div class="avatar"></div>
+                <div class="profile">PROFILE</div>
+            </div>
+            <div class="noidung-duoi">
+                <div class="pics"></div>
+                <div class="pics"></div>
+                <div class="pics"></div>
+            </div>
+
+        </div>
+    </div>
+<script>
+    function hamDropdown() {
+    document.querySelector(".noidung_dropdown").classList.toggle("hienThi");
+}
+</script>
+
+
+</body>
