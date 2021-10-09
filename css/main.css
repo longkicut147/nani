@@ -1,84 +1,73 @@
 
-.intro-pic{
-    height:700px;
+.banner{
     width:100%;
-    background-image: url(../image-class/homepage.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height:100vh;
+    background-image: url("https://b.f8.photo.talk.zdn.vn/7430283364295629314/59c80cda1be6d2b88bf7.jpg");
+    background-size: cover;
+    display: flex;
 }
 
+
+.banner-left{
+    height:100%;
+    width:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .content{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    /* height: 500px; */
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: #88a0a7; */
-}
-
-
-.content-1{
-    height: 800px;
+    height: 30vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
-.content-up-ct1{
+
+.ct1{
+    background-color: gray;
+}
+
+.highlight{
+    height:40%;
+    display: flex;
+    padding-left: 20vh;
+    align-items: center;
+    font-size: 30px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.ct3{
+    height: 40vh;
+    width: 100%;
     display: flex;
 }
 
-.img1-ct1{
-    transform: rotate(-3deg);
-    border: 3px solid whitesmoke
-}
-.img2-ct1{
-    transform: rotate(5deg);
-    border: 3px solid whitesmoke
-}
-.img3-ct1{
-    transform: rotate(-1deg);
-    border: 3px solid whitesmoke
-}
-.content-right-ct1{
-    display: flex;
+.aboutus{
+    width: 50%;
+    height:100%;
     text-align: center;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 
-
-.content-2{
-    display: flex;
-    justify-content: center;
+img{
+    max-width: 100%;
+    max-height: 100%;
 }
-.img-ct2{
-    margin-left: 10px; margin-right: 10px;
-    border: 3px solid whitesmoke;
-}
-
-
-
-.content-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.imghomepage1{
+    height: 100%;
+    width: 50%;
+    text-align: center;
 }
 
-.content-left-ct3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.imghomepage2{
+    height: 30vh;
+    width: 100%;
 }
-
-.img-ct3{
-    border-top: 3px solid whitesmoke;
-    border-bottom: 3px solid whitesmoke;
-    margin-right: 20px;
-}
-
-
