@@ -19,15 +19,26 @@
 }
 
 .content{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     display: flex;
+    padding-bottom: 30px;
+    
+}
+.ct1{
     flex-direction: column;
+    background-color: whitesmoke;
+}
+.ct2{
+    flex-direction: column;
+    background-color:lightgrey;
+}
+.ct3{
+    background-color:lightgrey;
 }
 
-.ct1{
-    background-color: gray;
-}
+
+
 
 .highlight{
     height:40%;
@@ -43,13 +54,6 @@
 }
 
 
-
-.ct3{
-    height: 40vh;
-    width: 100%;
-    display: flex;
-}
-
 .aboutus{
     width: 50%;
     height:100%;
@@ -63,11 +67,12 @@ img{
 }
 .imghomepage1{
     height: 100%;
-    width: 50%;
+    width: 36%;
     text-align: center;
 }
 
 .imghomepage2{
     height: 30vh;
     width: 100%;
+    background-color: grey;
 }
