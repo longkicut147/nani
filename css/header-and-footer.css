@@ -53,13 +53,13 @@ nav li{
     padding-left:20px
 }
 
-nav, li, a{
+li > a{
     text-transform: uppercase;
     text-decoration: none;
     color: floralwhite;
     font-size: 18px;
 }
-nav li a:hover{
+nav > li > a:hover{
     color: #88a0a9;
 }
 
@@ -99,15 +99,15 @@ nav li a:hover{
     text-align: center;
     margin-top: 12px;
 }
-.text-first{
-    font-size:40px;
+.text1{
+    font-size:48px;
     color: floralwhite;
 }
-.text-second{
+.text2{
     color: #d47559;
-    font-size: 20px;
+    font-size: 24px;
 }
-.text-third{
+.text3{
     padding-top:24px;
     color: #88a0a7;
     font-size: 16px;
