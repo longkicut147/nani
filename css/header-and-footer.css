@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
 #header{
@@ -97,20 +98,30 @@ nav > li > a:hover{
 
 .text{
     text-align: center;
-    margin-top: 12px;
+    margin: 6px 0 6px 0;
 }
 .text1{
     font-size:48px;
     color: floralwhite;
+}
+.text1-2{
+    font-size:48px;
+    color: black
 }
 .text2{
     color: #d47559;
     font-size: 24px;
 }
 .text3{
-    padding-top:24px;
     color: #88a0a7;
     font-size: 16px;
 }
+.text4{
+    font-size:18px;
+    color: black;
+}
 
+img{
+    border: 2px solid whitesmoke
+}
 

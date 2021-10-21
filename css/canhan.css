@@ -1,25 +1,6 @@
 #web{
     background-color: #0d202b;
 }
-.text{
-    text-align: center;
-    margin-top: 12px;
-}
-.text-first{
-    font-size:40px;
-    color: floralwhite;
-}
-.text-second{
-    color: #d47559;
-    font-size: 20px;
-}
-.text-third{
-    padding-top:24px;
-    color: #88a0a7;
-    font-size: 16px;
-}
-
-
 
 
 .intro{
@@ -47,7 +28,7 @@
     width: 80%;
     padding-top:30px;
     padding-bottom:30px;
-    background-color: #102531;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     border: 1px solid #17313a;

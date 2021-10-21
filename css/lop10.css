@@ -1,16 +1,117 @@
-.content{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    height: 500px;
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #88a0a7;
+* {box-sizing:border-box}
+
+
+
+/* thiết lập style cho slideshow container */
+.slideshow-container {
+    max-width: 640px;
+    position: relative;
+}
+/* ẩn hình ảnh cho phần tử slideshow */
+.mySlides {
+    display: none;
+}
+/* thiết kế nút mũi tên*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -22px;
+    padding: 14px;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* thiết lập style  nút tròn điều khiển*/
+
+.dots{
+    position: absolute;
+    bottom: 6px;
+    width: 100%;
+    padding: 8px 12px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #bbb;
 }
 
 
-img{
-    max-width: 100%;
-    max-height: 100%;
+
+/* tạo hiệu ứng chuyển động fade */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/* ------------------------------------------------------------------- */
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d202b;
+}
+
+.content{
+    width: 90%;
+    background-color:gainsboro;
+    margin: 40px 0;
+    padding: 14px 10px 10px 10px;
+    display: flex;
+}
+
+.content1-right{
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph{
+    margin-top:4vh;
+}
+
+
+
+.content2{
+    align-items: center;
+}
+
+.content5{
+    width: 90%;
+    height:40vh;
+    background-color:gainsboro;
+    margin: 40px 0;
+    padding: 14px 10px 10px 10px;
+    display: flex;
 }
