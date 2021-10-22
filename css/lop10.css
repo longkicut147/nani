@@ -85,7 +85,7 @@
 }
 
 .content{
-    width: 90%;
+    width: 80%;
     background-color:gainsboro;
     margin: 40px 0;
     padding: 14px 10px 10px 10px;
@@ -100,7 +100,7 @@
     justify-content: center;
 }
 .content-right{
-    margin-left: 10vh;
+    margin: 5vh;
     display: flex;
     flex-direction: column;
     position: relative;
