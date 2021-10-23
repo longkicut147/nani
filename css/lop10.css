@@ -4,7 +4,7 @@
 
 /* thiết lập style cho slideshow container */
 .slideshow-container {
-    max-width: 640px;
+    max-width: 100%;
     position: relative;
 }
 /* ẩn hình ảnh cho phần tử slideshow */
@@ -117,8 +117,16 @@
     margin-top:4vh;
 }
 
-
 .content1{
+    position: relative;
+}
+.intro{
+    position: absolute;
+    bottom: 40%;
+    right: 1%;
+}
+
+.content2{
     display: flex;
     justify-content: space-between;
 }
@@ -139,6 +147,9 @@
     display: none;
 }
 .slideshow-container-2 {
-    max-width: 90%;
+    max-width: 100%;
     position: relative;
 }
+
+
+
